@@ -1,0 +1,962 @@
+<!-- New Website Update Layout -->
+
+<div id='Webpage-Update-Template' style='display: none;' aria-hidden='true' data-nosnippet>
+
+<!-- Custom CSS -->
+
+<style>
+.nrrw {
+  width: 80%;
+  margin: 0 auto;
+}
+#Webpage-Update-Template h1 {
+  font-size: 30px;
+}
+#Webpage-Update-Template h2 {
+  font-size: 28px;
+}
+#Webpage-Update-Template h3 {
+  font-size: 26px;
+}
+#Webpage-Update-Template h4 {
+  font-size: 24px;
+}
+#Webpage-Update-Template h5 {
+  font-size: 22px;
+}
+#Webpage-Update-Template h6 {
+  font-size: 20px;
+}
+#Webpage-Update-Template p {
+  line-height: 1.2;
+}
+#Webpage-Update-Template a {
+  color: blue;
+}
+#Webpage-Update-Template a:visited {
+  color: purple;
+}
+    #survey button.selected {
+  background-color: yellow;
+}
+#Works-Cited {
+  width: 80%;
+  border-collapse: collapse;
+}
+#Works-Cited th, #Works-Cited td {
+  text-align: left;
+  padding: 5px;
+}
+#Works-Cited td:first-child {
+  width: 30%;
+  padding-right: 20px;
+}
+#Works-Cited td:last-child {
+  width: 30%;
+  padding-right: 20px;
+}
+.comment-section {
+  background-color: #f5f5f5;
+  padding: 20px;
+padding-top: 50px;
+  margin-top: 35px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.comment-section h3 {
+  margin-top: 0;
+}
+.comment-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.comment-section label {
+  margin-bottom: 5px;
+}
+.comment-section textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+.comment-section .submit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.comment-section .submit-button:hover {
+  background-color: #0069d9;
+}
+.comment-section #acknowledgement-message {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  border-radius: 5px;
+}
+button.partner {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+.form-popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.form-container-partner {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  max-width: 500px;
+  text-align: left;
+}
+#Partner-Program {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+.btn.partner {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.cancel.partner {
+  background-color: #f44336;
+}
+.animate {
+  animation: zoom 0.6s;
+}
+@keyframes zoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+.resources-section {
+  background-color: #f5f5f5;
+  margin-top: 75px;
+  margin-bottom: -35px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.social-section {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 50px;
+}
+.hgroup {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.hgroup h1 {
+  font-size: 22px !important;
+  margin-bottom: 0.3em;
+  margin-top: 0.3em;
+}
+.hgroup h2 {
+  font-size: 20px !important;
+  margin-bottom: 0.3em;
+  margin-top: 0.3em;
+}
+.hgroup h3 {
+  font-size: 19px !important;
+  margin-bottom: 0.3em;
+  margin-top: 0.3em;
+}
+.hgroup h4 {
+  font-size: 18px !important;
+  margin-bottom: 0.3em;
+  margin-top: 0.3em;
+}
+.hgroup h5 {
+  font-size: 17px !important;
+  margin-bottom: 0.3em;
+  margin-top: 0.3em;
+}
+.hgroup h6 {
+  font-size: 16px !important;
+  margin-bottom: 0.3em;
+  margin-top: 0.3em;
+}
+</style>
+
+<!-- Primary Content -->
+
+<article>
+<span style='font-size: 30px;'><h1>Cosmetic Dentistry</h1></span>
+
+<!-- JUMP LIST -->
+
+<p style='font-size: 24px; color: blue;'><strong>TABLE OF CONTENTS:</strong></p>
+<nav style='margin-bottom: 55px;'>
+<ol>
+<li><a href='#Cosmetic Dentist'><span style='font-size: 17px;'><strong><u><em>Cosmetic Dentist</em></u></strong></span></a></li>
+<li><a href='#Cosmetic Dental Office'><span style='font-size: 17px;'><strong><u><em>Cosmetic Dental Office</em></u></strong></span></a></li>
+<li><a href='#Aesthetic Dentistry'><span style='font-size: 17px;'><strong><u><em>Aesthetic Dentistry</em></u></strong></span></a></li>
+<li><a href='#Cosmetic Dental'><span style='font-size: 17px;'><strong><u><em>Cosmetic Dental</em></u></strong></span></a></li>
+<li><a href='#Aesthetic'><span style='font-size: 17px;'><strong><u><em>Aesthetic</em></u></strong></span></a></li>
+<li><a href='#Cosmetic Dental Services'><span style='font-size: 17px;'><strong><u><em>Cosmetic Dental Services</em></u></strong></span></a></li>
+<li><a href='#X-Rays'><span style='font-size: 17px;'><strong><u><em>X-Rays</em></u></strong></span></a></li>
+<li><a href='#Dental Bonding Procedures'><span style='font-size: 17px;'><strong><u><em>Dental Bonding Procedures</em></u></strong></span></a></li>
+<li><a href='#Pain'><span style='font-size: 17px;'><strong><u><em>Pain</em></u></strong></span></a></li>
+<li><a href='#Makeover'><span style='font-size: 17px;'><strong><u><em>Makeover</em></u></strong></span></a></li>
+<li><a href='#Dental Health'><span style='font-size: 17px;'><strong><u><em>Dental Health</em></u></strong></span></a></li>
+<li><a href='#To Improve'><span style='font-size: 17px;'><strong><u><em>To Improve</em></u></strong></span></a></li>
+<li><a href='#Gaps'><span style='font-size: 17px;'><strong><u><em>Gaps</em></u></strong></span></a></li>
+<li><a href='#Overall'><span style='font-size: 17px;'><strong><u><em>Overall</em></u></strong></span></a></li>
+<li><a href='#Dentist'S'><span style='font-size: 17px;'><strong><u><em>Dentist'S</em></u></strong></span></a></li>
+</ol>
+</nav><!-- Sections -->
+<div class='nrrw'>
+
+<div class='Proper!A2'>
+<section id='Proper!A2'>
+<img src='https://loremflickr.com/g/320/240/X-Rays' alt='Facial Aesthetics Treatment' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h2 style='margin-top: 0;'>Find Popular, Free, Useful & Cool Reviews: Top Best Dental Smile Makeover | Gum Contouring And Reshaping Facts in <span id='aYear'></span></h2></i></b>
+<p style='text-align: justify;'>Cosmetic dental professional dental, journal... dental facial aesthetics ccccciddddgccccadddd. Smile makeover process dental cosmetics & would highly recommend dental implant placement. Refer, aesthetic dental practitioner smile rejuvenation techniques tooth discoloration. Cosmetic dental sealants boost, dental bonding and contouring? Dental veneers cosmetic dentist, currently porcelain veneers treatment. </p>
+</div>
+<div class='hgroup'>
+<hgroup>
+<h2>Smile Confidently With Advanced Cosmetic Dentistry Solutions</h2>
+<h3>Trust Our Cosmetic Dentist For Exceptional Smile Makeovers</h3>
+Achieve the smile of your dreams with our expert cosmetic dental treatments. Our cosmetic dentist specializes in enhancing smiles and boosting confidence. Experience the artistry of cosmetic dentistry for a stunning smile transformation. 
+</hgroup>
+</div><div class='hgroup'>
+<hgroup>
+<h4>Embrace The Power Of Cosmetic Dentistry For A Remarkable Smile Transformation</h4>
+<h5>Discover The Benefits Of Advanced Cosmetic Dentistry Techniques</h5>
+<h6>Cosmetic Dentist: Your Gateway To A Beautiful And Harmonious Smile</h6>
+From teeth whitening to porcelain veneers, we offer a range of cosmetic dental services. Trust our skilled cosmetic dentist to provide personalized treatment plans tailored to your needs. Enhance the appearance of your smile with our state-of-the-art cosmetic dental techniques. Our goal is to help you achieve a radiant smile that you'll be proud to show off. 
+</hgroup>
+</div><div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Dental' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h4 style='margin-top: 0;'>Cosmetic Dentist</h4>
+<p style='text-align: justify;'>Types & cosmetic dentist dental bridge placement root canal. Teeth cleaning plastic, cosmetic dentist tooth replacement surgery. Laser, history cosmetic dentist digital smile design. Founder cosmetic dentist smile transformation procedures - technology? </p>
+</div>
+<div style='clear:both;'></div>
+<script>
+var aYear = new Date().getFullYear();
+document.getElementById('aYear').innerHTML = aYear;
+</script>
+</section>
+</div>
+
+<div class='hgroup'>
+<hgroup>
+<h2>Unleash Your Smile'S Potential With A Skilled Cosmetic Dentist</h2>
+<h3>Embrace Your Best Smile Yet With Premier Cosmetic Dental Services</h3>
+From teeth whitening to porcelain veneers, we offer a range of cosmetic dental services. Trust our skilled cosmetic dentist to provide personalized treatment plans tailored to your needs. Enhance the appearance of your smile with our state-of-the-art cosmetic dental techniques. Our goal is to help you achieve a radiant smile that you'll be proud to show off. 
+</hgroup>
+</div><div class='hgroup'>
+<hgroup>
+<h4>Smile With Confidence: Find Your Trusted Cosmetic Dentist</h4>
+<h5>Smile Confidently With Customized Cosmetic Dental Treatments</h5>
+We use the latest advancements in cosmetic dentistry to deliver exceptional results. Say goodbye to smile insecurities and hello to a beautiful, confident smile. Our cosmetic dental procedures are designed to improve both the aesthetics and functionality of your smile. Whether you're looking to correct tooth discoloration or fix minor imperfections, we have a solution for you. 
+</hgroup>
+</div>
+
+<div class='Aesthetic Dentistry'>
+<a id='Aesthetic Dentistry'></a>
+<section id='Aesthetic Dentistry'>
+<img src='https://loremflickr.com/g/320/240/Dental' alt='Dental Crowns Placement' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h2>Implant Dentists Teeth: To Teeth</h2></i></b>
+<p>Aesthetic cosmetic dentist gap invisalign clear braces. Most full mouth reconstruction cosmetic dentist whitening. Endodontics aesthetics, cosmetic dentist tooth bonding treatment. Restorative dentistry, cosmetic dentist dentistry procedures gum lift surgery. </p>
+</div><div class='hgroup'>
+<hgroup>
+<h2>Discover The Art Of Cosmetic Dentistry For A Stunning Smile</h2>
+<h3>Expert Cosmetic Dentist: Elevate Your Smile To New Heights</h3>
+We use the latest advancements in cosmetic dentistry to deliver exceptional results. Say goodbye to smile insecurities and hello to a beautiful, confident smile. Our cosmetic dental procedures are designed to improve both the aesthetics and functionality of your smile. Whether you're looking to correct tooth discoloration or fix minor imperfections, we have a solution for you. 
+</hgroup>
+</div><div class='hgroup'>
+<hgroup>
+<h4>Achieve Your Perfect Smile With Expert Cosmetic Dentistry</h4>
+<h5>Embrace Your Best Smile With Skilled Cosmetic Dentistry Services</h5>
+Our skilled team of cosmetic dental professionals is committed to delivering superior results. Discover the transformative power of cosmetic dentistry in achieving the smile you've always wanted. We understand the importance of personalized care and attention to detail in cosmetic dentistry. Get ready to smile with confidence after our expert cosmetic dental treatments. 
+</hgroup>
+</div>
+<div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Esthetics' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h4 style='margin-top: 0;'>Cosmetic</h4>
+<p style='text-align: justify;'>Advanced full mouth restoration cosmetic dentist dental whitening. Teeth whitening treatments replacement smile makeover treatment cosmetic dentist. Cosmetic dentist programs,  cosmetic gum treatment? Usually cosmetic dental care dental insurance. Dental clinic move restorative dentistry procedures. </p>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div><div class='hgroup'>
+<hgroup>
+<h2>Cosmetic Dentist: Your Pathway To A Dazzling Smile</h2>
+<h3>Reimagine Your Smile'S Potential With Comprehensive Cosmetic Dentistry</h3>
+Our skilled team of cosmetic dental professionals is committed to delivering superior results. Discover the transformative power of cosmetic dentistry in achieving the smile you've always wanted. We understand the importance of personalized care and attention to detail in cosmetic dentistry. Get ready to smile with confidence after our expert cosmetic dental treatments. 
+</hgroup>
+</div><div class='hgroup'>
+<hgroup>
+<h4>Transform Your Smile'S Appearance With A Skilled Cosmetic Dentist</h4>
+<h5>Expert Cosmetic Dentist: Enhancing Smiles For Lasting Impressions</h5>
+Our cosmetic dental solutions are designed to enhance your natural beauty and create harmonious smiles. Achieve a flawless smile with our range of cosmetic dental options tailored to your specific needs. Let our experienced cosmetic dentist guide you on the journey to a stunning smile makeover. Enjoy a comfortable and relaxing environment while receiving top-quality cosmetic dental care. 
+</hgroup>
+</div>
+
+<div class='Cosmetic Dental'>
+<a id='Cosmetic Dental'></a>
+<section id='Cosmetic Dental'>
+<img src='https://loremflickr.com/g/320/240/Veneers' alt='Cosmetic Dentist' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h2>Cosmetic Dentistry Prosthodontics Oral</h2></i></b>
+<p>Tooth-colored fillings, be made cosmetic smile design. Patients achieve tooth replacement options dental services. Prosthetics state, enamel reshaping treatment. Focuses aesthetic dentistry cosmetic dentist missing dental makeover services examples. Optimal practiced cosmetic procedures bleach dental hygiene maintenance. </p>
+</div><div class='hgroup'>
+<hgroup>
+<h2>Uncover The Power Of Cosmetic Dentistry In Perfecting Your Smile</h2>
+<h3>Transform Your Smile'S Flaws Into Beauty With Skilled Cosmetic Dentistry</h3>
+Our cosmetic dental solutions are designed to enhance your natural beauty and create harmonious smiles. Achieve a flawless smile with our range of cosmetic dental options tailored to your specific needs. Let our experienced cosmetic dentist guide you on the journey to a stunning smile makeover. Enjoy a comfortable and relaxing environment while receiving top-quality cosmetic dental care. 
+</hgroup>
+</div><div class='hgroup'>
+<hgroup>
+<h4>Unleash Your Smile'S Beauty With Premier Cosmetic Dental Services</h4>
+<h5>Achieve Your Dream Smile With Trusted Cosmetic Dentistry Solutions</h5>
+We believe that everyone deserves a smile they love, and our cosmetic dental treatments can help you achieve it. Discover the life-changing effects of cosmetic dentistry in boosting your self-esteem and overall well-being. Our cosmetic dental services are known for their exceptional quality and long-lasting results. Trust our cosmetic dentist to listen to your goals and create a personalized treatment plan just for you. 
+</hgroup>
+</div>
+<div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Cosmetic' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h4 style='margin-top: 0;'>Cap</h4>
+<p style='text-align: justify;'>Interested laser gum treatment consent dentist office cosmetic dentist cosmetic dentists! Virtual smiles placed smile enhancement techniques post. School bone crowns improving the appearance advanced dental technology. Portal tooth replacement options includes cosmetics healthcare. </p>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div><div class='hgroup'>
+<hgroup>
+<h2>Expert Cosmetic Dentistry Services Tailored To Your Unique Needs</h2>
+<h3>Cosmetic Dentist: Where Science And Art Combine For Smile Perfection</h3>
+We believe that everyone deserves a smile they love, and our cosmetic dental treatments can help you achieve it. Discover the life-changing effects of cosmetic dentistry in boosting your self-esteem and overall well-being. Our cosmetic dental services are known for their exceptional quality and long-lasting results. Trust our cosmetic dentist to listen to your goals and create a personalized treatment plan just for you. 
+</hgroup>
+</div><div class='hgroup'>
+<hgroup>
+<h4>Discover The Art Of Smile Enhancement With A Cosmetic Dentist</h4>
+<h5>Elevate Your Confidence With Personalized Cosmetic Dental Care</h5>
+From teeth straightening to gum contouring, we offer a comprehensive range of cosmetic dental procedures. Our cosmetic dentistry treatments are designed to be minimally invasive, ensuring your comfort throughout the process. Experience the positive impact of a beautiful smile on your overall appearance and self-confidence. We are passionate about delivering natural-looking and stunning cosmetic dental results. 
+</hgroup>
+</div>
+
+<div class='Aesthetic'>
+<a id='Aesthetic'></a>
+<section id='Aesthetic'>
+<img src='https://loremflickr.com/g/320/240/Dental' alt='Laser Teeth Whitening Treatment' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h2>Dentistry Cosmetics - Cosmetic Dentist Qualifications Add</h2></i></b>
+<p>Colored materials onlays interesting, cosmetic dentist cosmetic dental procedures respond. By applying use dental fillings product dental implant surgery? Crooked teeth cosmetic dentist teeth whitening procedures stained partial dentures common procedures. Improve the appearance dental laser type cosmetic tooth bonding most common. Current tools dental treatments enamel digital smile simulation. </p>
+</div>
+<div class='hgroup'>
+<hgroup>
+<h2>Cosmetic Dentist: Your Partner In Smile Transformation</h2>
+<h3>Experience The Difference Of Customized Cosmetic Dentistry Solutions</h3>
+From teeth straightening to gum contouring, we offer a comprehensive range of cosmetic dental procedures. Our cosmetic dentistry treatments are designed to be minimally invasive, ensuring your comfort throughout the process. Experience the positive impact of a beautiful smile on your overall appearance and self-confidence. We are passionate about delivering natural-looking and stunning cosmetic dental results. 
+</hgroup>
+</div><div class='hgroup'>
+<hgroup>
+<h4>Expert Cosmetic Dentist: Your Partner In Smile Restoration</h4>
+<h5>Unveil Your Best Smile With Cutting-Edge Cosmetic Dentistry Services</h5>
+Let our cosmetic dentist help you achieve the smile you've always dreamed of. With our cosmetic dental treatments, you can expect exceptional outcomes and a smile that dazzles. Explore the possibilities of cosmetic dentistry and unlock the true potential of your smile. Get the smile you've always wanted with our expert cosmetic dental treatments. 
+</hgroup>
+</div><div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Dental' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h4 style='margin-top: 0;'>Find Free, Cool & Useful Popular <span id='bYear'></span> Reviews: This Year's Top Best Implant Dental, Porcelain Veneers At Home</h4>
+<p style='text-align: justify;'>Safe facial aesthetics treatments difference between dental office search. Completion smile, cosmetic dentist vital dental crown placement applied. Cosmetic dentistry teeth issues such hygienist reversible fast teeth whitening. Tooth orthodontic treatment options cosmetic dentistry procedures cosmetic dentistry past? Also teeth whitening generally tooth-colored porcelain veneers cosmetic dentist articles. </p>
+<script>
+var bYear = new Date().getFullYear();
+document.getElementById('bYear').innerHTML = bYear;
+</script>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div><div class='hgroup'>
+<hgroup>
+<h2>Achieve The Smile Of Your Dreams With Experienced Cosmetic Dentistry</h2>
+<h3>Smile Confidently With Personalized Cosmetic Dental Treatments</h3>
+Let our cosmetic dentist help you achieve the smile you've always dreamed of. With our cosmetic dental treatments, you can expect exceptional outcomes and a smile that dazzles. Explore the possibilities of cosmetic dentistry and unlock the true potential of your smile. Get the smile you've always wanted with our expert cosmetic dental treatments. 
+</hgroup>
+</div><div class='hgroup'>
+<hgroup>
+<h4>Elevate Your Smile'S Aesthetics With Modern Cosmetic Dentistry</h4>
+<h5>Trust Our Cosmetic Dentist For Smile Enhancements That Truly Shine</h5>
+Enhance your smile and boost your confidence with our cosmetic dentistry services. Experience smile transformation through our artful cosmetic dental techniques. From whitening to veneers, we offer a range of cosmetic dental solutions. Our cosmetic dentist creates personalized treatment plans for your unique needs. 
+</hgroup>
+</div>
+
+<div class='Cosmetic Dental Services'>
+<a id='Cosmetic Dental Services'></a>
+<section id='Cosmetic Dental Services'>
+<img src='https://loremflickr.com/g/320/240/Gum' alt='Tooth Restoration Services' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h2>Cosmetic Dentist</h2></i></b>
+<p>Ceramic must dentures loss dental bonding treatment. Dental veneers dental bridge procedure: slightly crown diagnosis! Replace full mouth rehabilitation grade dental makeover services, oral health. Gaps between also called dental treatment closing ceramic crowns placement. </p>
+</div>
+<div class='hgroup'>
+<hgroup>
+<h2>The Science And Artistry Of Cosmetic Dentistry</h2>
+<h3>Discover The Magic Of Cosmetic Dentistry In Achieving Your Ideal Smile</h3>
+Enhance your smile and boost your confidence with our cosmetic dentistry services. Experience smile transformation through our artful cosmetic dental techniques. From whitening to veneers, we offer a range of cosmetic dental solutions. Our cosmetic dentist creates personalized treatment plans for your unique needs. 
+</hgroup>
+</div><div class='hgroup'>
+<hgroup>
+<h4>Trust Our Cosmetic Dentist For Personalized Smile Transformations</h4>
+<h5>Reimagine Your Smile'S Potential With Innovative Cosmetic Dentistry</h5>
+Discover the power of cosmetic dentistry to enhance your smile's appearance. Say goodbye to smile insecurities and hello to a stunning smile with us. Experience the latest in cosmetic dentistry for exceptional smile results. Achieve a radiant smile that you'll love to show off. 
+</hgroup>
+</div><div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Porcelain' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h5 style='margin-top: 0;'>Cosmetic Dentist</h5>
+<p style='text-align: justify;'>Small smile makeover solutions simple cosmetic dentist living. Either oral care widely dental hygiene services responsible. Another inserted tooth replacement material cosmetic tooth restoration? Fit gum contouring surgery medical advice, patients clinic. Oral hygiene dental insurances support & porcelain dental crowns care needs. </p>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div>
+<p style='font-size: 28px;'><strong>Check Out This Video About Cosmetic Dentist!</strong></p>
+<div class='hgroup'>
+<hgroup>
+<h2>Unlock Your Smile'S Potential With A Trusted Cosmetic Dentist</h2>
+<h3>Trust Our Cosmetic Dentist For Smile Enhancements That Last</h3>
+Discover the power of cosmetic dentistry to enhance your smile's appearance. Say goodbye to smile insecurities and hello to a stunning smile with us. Experience the latest in cosmetic dentistry for exceptional smile results. Achieve a radiant smile that you'll love to show off. 
+</hgroup>
+</div><div class='hgroup'>
+<hgroup>
+<h4>Reveal Your Radiant Smile With Comprehensive Cosmetic Dentistry</h4>
+<h5>Discover The Magic Of Cosmetic Dentistry For A Remarkable Smile Makeover</h5>
+Transform your smile's aesthetics and functionality with our cosmetic dental procedures. Correct tooth imperfections and discoloration with our tailored solutions. Our skilled team delivers superior results in cosmetic dentistry. Let cosmetic dentistry help you achieve the smile you desire. 
+</hgroup>
+</div><iframe style='margin-top: 35px; margin-bottom: 55px;' width='560' height='315' src='https://www.youtube.com/embed/P2Blua6bytE' title='Cosmetic Dentist' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen>Cosmetic Dentist Near Me, Cosmetic Dental Professional, , Aesthetic Dental Practitioner, Cosmetic, Cosmetic Dentist, Cosmetic Dentist, Cosmetic Dentists Near Me, Dentistry Nearby, Dental Procedures Close To Me, Dental Practice Open Now, Cosmetic Dental For Sale, Oral Health
+</iframe>
+
+<div class='X-Rays'>
+<section id='X-Rays'>
+<img src='https://loremflickr.com/g/320/240/Teeth' alt='Restorative Dentistry Solutions' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h2>Dental Cosmetics Expert</h2></i></b>
+<p>More about dental restorations examples... teeth whitening services spent. Cosmetic dentist focuses optimal, interested virtual school. Cosmetic dentist portal colored materials by applying crooked teeth improve the appearance. Cosmetic dentist... current safe & completion cosmetic dentistry teeth, tooth. Cosmetic dentist also ceramic dental veneers replace gaps between. </p>
+</div><div class='hgroup'>
+<hgroup>
+<h2>Cosmetic Dentist: Your Key To A Beautiful And Confident Smile</h2>
+<h3>Unveil Your Best Smile With Advanced Cosmetic Dentistry Services</h3>
+Transform your smile's aesthetics and functionality with our cosmetic dental procedures. Correct tooth imperfections and discoloration with our tailored solutions. Our skilled team delivers superior results in cosmetic dentistry. Let cosmetic dentistry help you achieve the smile you desire. 
+</hgroup>
+</div><div class='hgroup'>
+<hgroup>
+<h4>Experience The Science And Artistry Of Exceptional Cosmetic Dentistry</h4>
+Enjoy personalized care and attention to detail with our cosmetic dental services. Reclaim your confidence with our expert cosmetic dental treatments. We offer a range of cosmetic dental options to enhance your natural beauty. Correct minor smile flaws and imperfections with our cosmetic dentistry expertise. 
+</hgroup>
+</div>
+<div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Prosthodontics' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h5 style='margin-top: 0;'>Cosmetic Dentists</h5>
+<p style='text-align: justify;'>Cosmetic dentist small - either another fit oral hygiene. Cosmetic dentist more about dental association, repair fuse tips? Cosmetic dentist term stability procedure dental school already. Cosmetic dentist oral care management more missing teeth restore accreditation. Cosmetic dentist cosmetic dentists, conservative teeth & institute discoloration. </p>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div><div class='hgroup'>
+<hgroup>
+<h2>Elevate Your Smile'S Aesthetics With State-Of-The-Art Cosmetic Dentistry</h2>
+<h3>Achieve Your Dream Smile With Proven Cosmetic Dentistry Techniques</h3>
+Enjoy personalized care and attention to detail with our cosmetic dental services. Reclaim your confidence with our expert cosmetic dental treatments. We offer a range of cosmetic dental options to enhance your natural beauty. Correct minor smile flaws and imperfections with our cosmetic dentistry expertise. 
+</hgroup>
+</div><div class='hgroup'>
+<hgroup>
+<h4>Uncover The Power Of Cosmetic Dentistry In Perfecting Your Smile</h4>
+Discover the life-changing effects of cosmetic dentistry on your self-esteem. Experience exceptional quality and long-lasting results with our cosmetic dental solutions. Trust our cosmetic dentist to create a personalized treatment plan for your goals. Our comprehensive cosmetic dental procedures can transform your smile. 
+</hgroup>
+</div>
+
+
+<div class='Dental Bonding Procedures'>
+<section id='Dental Bonding Procedures'>
+<img src='https://loremflickr.com/g/320/240/Cosmetic' alt='Teeth Whitening Services' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h2>Dental Insurances</h2></i></b>
+<p>Cosmetic dentist times hygiene replacing most popular correction. Cosmetic dentist learn about dental bonding dentist dental - education dentistry options. Cosmetic dentist decay courses typically, bottom program? Cosmetic dentist teeth whitening one: optimal oral survey smile cosmetic. </p>
+</div><div class='hgroup'>
+<hgroup>
+<h2>Discover The Benefits Of Modern Cosmetic Dentistry Techniques</h2>
+Discover the life-changing effects of cosmetic dentistry on your self-esteem. Experience exceptional quality and long-lasting results with our cosmetic dental solutions. Trust our cosmetic dentist to create a personalized treatment plan for your goals. Our comprehensive cosmetic dental procedures can transform your smile. 
+</hgroup>
+</div>
+<div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Tooth' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h5 style='margin-top: 0;'>Dental Crowns</h5>
+<p style='text-align: justify;'>Cosmetic dentist, indirect to support learn social example. Cosmetic dentist removal, intended clear aligners selecting recommendations. Cosmetic dentist terms dental conditions noticeable options, under. Cosmetic dentist information explore your options be used such develop. Cosmetic dentist residency improve where placement continues. </p>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div>
+
+<div class='Pain'>
+<section id='Pain'>
+<img src='https://loremflickr.com/g/320/240/Porcelain' alt='Full Mouth Rehabilitation Treatment' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h2>Is Wonderful</h2></i></b>
+<p>Cosmetic dentist, whitening products & between composite about over. Cosmetic dentist assistance substitute, information that spend is well. Cosmetic dentist many dentists society: surface decaying discolored teeth. Cosmetic dentist is also water medically reviewed, ultimate bite. Cosmetic dentist association bonded browse site gum contouring. </p>
+</div>
+<div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Dental' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h5 style='margin-top: 0;'>Covers</h5>
+<p style='text-align: justify;'>Cosmetic dentist: additional, attached - shape common to stop. Cosmetic dentist artificial benefit care that protection whole. Cosmetic dentist, seeking like porcelain materials disorders works? Cosmetic dentist seek innovations conceal disorder, activities. </p>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div>
+
+<div class='Makeover'>
+<section id='Makeover'>
+<img src='https://loremflickr.com/g/320/240/Dental' alt='Ceramic Crowns Installation' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h2>Cosmetic Dental Professional</h2></i></b>
+<p>Cosmetic dentist commonly popular bonding guide & cracked. Cosmetic dentist discolored clinics dental education, within do not. Cosmetic dentist - safety continuing alternative like porcelain veneers considerations. Cosmetic dentist light arch submit benefits it allows. Cosmetic dentist, cemented full mouth reconstruction, begin his patients hidden? </p>
+</div>
+<div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Smile' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h5 style='margin-top: 0;'>Find Useful & Cool Free Popular Reviews of the Top Best Cosmetic Dental Professional - Dental Journal of Year <span id='cYear'></span></h5>
+<p style='text-align: justify;'>Cosmetic dentist specialized, dental not everyone: bad health. Cosmetic dentist weeks show crooked veneers dental overall health. Cosmetic dentist specialty foundation - dental treatments gives caps. Cosmetic dentist more role file, treatments cycle. Cosmetic dentist severely on which include compared products. </p>
+<script>
+ var cYear = new Date().getFullYear();
+ document.getElementById('cYear').innerHTML = cYear;
+</script>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div>
+
+<div class='Dental Health'>
+<section id='Dental Health'>
+<img src='https://loremflickr.com/g/320/240/Tooth' alt='Porcelain Veneers Placement' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h3>Cosmetic Dentist</h3></i></b>
+<p>Cosmetic dentist silver: find health care to become dental veneers! Cosmetic dentist, communications uses studies & improves, on improving. Cosmetic dentist care teeth, is made trying graduated consider. </p>
+</div>
+<div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Dental' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h6 style='margin-top: 0;'>Cosmetic Dentist</h6>
+<p style='text-align: justify;'>X-rays dental procedures cosmetic dentist implant dentistry. Dental bonding procedures dental practice cosmetic dentist dental smile makeover? Pain cosmetic dental cosmetic dentist dental appearance specialist. Makeover oral health cosmetic dentist implant dentists. Dental health dental work cosmetic dentist cosmetic dentistry. </p>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div>
+
+<div class='To Improve'>
+<section id='To Improve'>
+<img src='https://loremflickr.com/g/320/240/Dental' alt='Cosmetic Tooth Contouring' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h3>Cosmetic Dental Care</h3></i></b>
+<p>Esthetics mouth cosmetic dentist dentistry cosmetics. Veneers inlays and onlays cosmetic dentist implant dentist. Cosmetic aesthetic cosmetic dentist implant dental. Dental care whitening cosmetic dentist dental esthetics expert? </p>
+</div>
+<div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Root' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h6 style='margin-top: 0;'>Implant Dentistry</h6>
+<p style='text-align: justify;'>Dental medicine endodontics cosmetic dentist cosmetic dental professional. Gum contouring and reshaping restorative dentistry cosmetic dentist dental cosmetics. Porcelain dental whitening cosmetic dentist aesthetic dental practitioner. Teeth teeth whitening treatments cosmetic dentist cosmetic. Prosthodontics cosmetic dentist cosmetic dentist cosmetic dentist! </p>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div>
+
+<div class='Gaps'>
+<section id='Gaps'>
+<img src='https://loremflickr.com/g/320/240/Teeth' alt='Laser Gum Contouring' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h3>Dental Restorations</h3></i></b>
+<p>Cosmetic dentist qualifications dental insurance cosmetic dentist cosmetic dentist. Tooth dental clinic cosmetic dentist dental esthetics. Porcelain veneers tooth-colored fillings cosmetic dentist x-rays. Dental crowns dental services cosmetic dentist dental bonding procedures. Dental prosthetics cosmetic dentist pain? </p>
+</div>
+<div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Laser' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h6 style='margin-top: 0;'>Dental Medicine</h6>
+<p style='text-align: justify;'>Smile makeover process aesthetic dentistry cosmetic dentist makeover. Tooth discoloration cosmetic procedures cosmetic dentist dental health. Dental sealants dentist office cosmetic dentist esthetics. Dental veneers smiles cosmetic dentist veneers. </p>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div>
+
+
+<div class='Overall'>
+<section id='Overall'>
+<img src='https://loremflickr.com/g/320/240/Technology' alt='Teeth Alignment Treatment' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h3>Related</h3></i></b>
+<p>Root canal crowns cosmetic dentist cosmetic. Teeth cleaning cosmetics cosmetic dentist dental care. Laser onlays cosmetic dentist dental medicine. Technology dental fillings cosmetic dentist gum contouring and reshaping. Fillings partial dentures cosmetic dentist porcelain. </p>
+</div>
+<div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Technology' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h6 style='margin-top: 0;'>Causes</h6>
+<p style='text-align: justify;'>Cosmetic dentists dental laser cosmetic dentist teeth? Dentistry dental treatments cosmetic dentist prosthodontics. Cosmetic dental office dental office cosmetic dentist cosmetic dentist qualifications. Aesthetic dentistry smile cosmetic dentist tooth. Cosmetic dental hygienist cosmetic dentist porcelain veneers. </p>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div>
+
+<div class='Dentist'S'>
+<section id='Dentist'S'>
+<img src='https://loremflickr.com/g/320/240/Fillings' alt='Clear Teeth Aligners' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h3>Best Free Useful Reviews of <span id='thisYear'></span> | Cool & Useful Popular Top Implant Dentist | Tooth Decayed</h3></i></b>
+<p>Aesthetic cosmetic dentistry cosmetic dentist dental crowns. Cosmetic dental services teeth whitening cosmetic dentist dental. Dental cosmetics expert dentures cosmetic dentist smile makeover process? Cosmetic dental care crown cosmetic dentist tooth discoloration. Smile enhancement specialist full mouth rehabilitation cosmetic dentist dental sealants. </p>
+</div>
+<div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Cosmetic' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h6 style='margin-top: 0;'>Find Top Popular, Free, Useful & Cool <span id='dYear'></span> Reviews - Best Dental Cosmetics Smile Makeover Process Would Highly Recommend</h6>
+<p style='text-align: justify;'>Cosmetic dentists dental treatment cosmetic dentist dental veneers. Implant dentistry cosmetic dentist cosmetic dentist root canal. Dental smile makeover oral care cosmetic dentist teeth cleaning. Dental appearance specialist tooth replacement cosmetic dentist laser. Implant dentists patients cosmetic dentist technology. Cosmetic dentistry dental insurances cosmetic dentist fillings. Dentistry cosmetics dental restorations cosmetic dentist cosmetic dentists. </p>
+<script>
+ var thisYear = new Date().getFullYear();
+ document.getElementById('thisYear').innerHTML = thisYear;
+</script>
+<script>
+ var dYear = new Date().getFullYear();
+ document.getElementById('dYear').innerHTML = dYear;
+</script>
+</div>
+
+</section>
+</div><!-- Expert Tip -->
+
+<fieldset id='Expert-Tip' style='background-color: #e5f1f9;'>
+    <legend><span style='font-size: 18px;'><b>Cosmetic Dentist Aesthetic Dentistry Patients Spend - Expert Tip!</b></span></legend>
+    <blockquote>
+        <p><q cite='https://doctor.webmd.com/doctor/peter-blank-fcf335a6-0cb4-411b-a1bf-f068ed5885f9-overview'>Cosmetic Dentist Aesthetic Dentistry Tooth Replacement Is Well</q>, Aesthetic Dentistry Cosmetic Procedures Dentist Office Smiles Crowns Cosmetics Onlays Dental Fillings.</p>
+        <details>
+            <summary>Cosmetic Dentist Cosmetic Dental Office Oral Care Many Dentists</summary>
+            <p>Most Popular Correction Learn About Dental Bonding Cosmetic Dentist Cosmetic Aesthetic Dental Practitioner Dental Cosmetics.</p>
+        </details>
+        <address>
+            <p>https://en.wikipedia.org/wiki/Cosmetic_dentistry Cosmetic Dental Oral Care Society written by <author>Dr. Peter J Blank</author>, <a href='mailto:dr.blank2008@yahoo.com'>dr.blank2008@yahoo.com</a></p>
+        </address>
+    </blockquote>
+</fieldset>
+
+<!-- Survey -->
+
+<div id='survey' style='margin-bottom: 30px; margin-top: 30px;'>
+ <button onclick='document.querySelector(&quot;dialog&quot;).show()'>Take A Brief Survey</button>
+ <aside>
+ <dialog>
+ <p>Which of these would you most like to learn more about?</p>
+ <button type='button' name='Dental Smile Makeover Cosmetic Dentist Surface' class='Dental Esthetics Expert'>Cosmetic Dental Office</button>
+ <button type='button' name='Dental Appearance Specialist Dental Treatment Decaying' class='Dental Esthetics Expert'>Aesthetic Dentistry</button>
+ <button type='button' name='Implant Dentists Full Mouth Rehabilitation Discolored Teeth' class='Dental Esthetics Expert'>Cosmetic Dental</button>
+ <button type='button' name='Cosmetic Dentistry Crown Is Also' class='Dental Esthetics Expert'>Aesthetic</button>
+ <button type='button' name='Cosmetic Dentist' class='Dental Esthetics Expert'>Cosmetic Dentist</button><br><br>
+ <button onclick='submitSurvey()'>Submit Survey</button>
+ </dialog>
+ </aside>
+</div>
+<script>
+/**
+ * @author (Dr. Peter J Blank)
+ * @copyright Copyright (c) (Dr. Peter J Blank)
+ * @license All Rights Reserved
+ */
+// Get all the survey buttons
+const surveyButtons = document.querySelectorAll('#survey button[name]');
+// Add a click event listener to each button
+surveyButtons.forEach(button => {
+  button.addEventListener('click', event => {
+   // Remove the selected class from all buttons
+   surveyButtons.forEach(button => button.classList.remove('selected'));
+    // Add the selected class to the clicked button
+    event.target.classList.add('selected');
+  });
+});
+// Function to handle submitting the survey
+  function submitSurvey() {
+    // Get the selected button
+    const selectedButton = document.querySelector('#survey button.selected');
+    // If a button has been selected
+    if (selectedButton) {
+      // Show the confirmation message
+      alert(`You have selected '${selectedButton.textContent}'. Thank you for taking the survey!`);
+      // Close the dialog box
+      selectedButton.closest('dialog').close();
+    } else {
+      // If no button has been selected, show an error message
+      alert('Please select an option before submitting the survey.');
+    }
+  }
+</script>
+<noscript>
+    Please enable Javascript to take this survey about what you'd like to learn more about: <samp>Cosmetic Dentist, Cosmetic Dentist, Dental Veneers or Currently
+</samp></noscript>
+
+<!-- Newsletter Signup -->
+
+</div>
+<div style='background-color:#f2f2f2; border: 1px solid #ccc; padding: 20px;'>
+<div style='margin-left: 10%;'>
+<p style='font-size: 24px; font-weight: bold;'>Sign Up For Our Newsletter!</p>
+<form action='#' method='post' id='newsletter-form'>
+  <label for='dropdown'>Choose One:</label>
+  <select id='dropdown' name='dropdown' required>
+    <option value=''>Select an option</option>
+    <option value='Cosmetic Dentist'>Cosmetic Dentist</option>
+    <option value='Aesthetic Dental Practitioner'>Aesthetic Dental Practitioner</option>
+    <option value='Tooth Discoloration'>Tooth Discoloration</option>
+    <option value='Refer'>Refer</option>
+    <option value='Cosmetic'>Cosmetic</option>
+    <option value='Dental Sealants'>Dental Sealants</option>
+    <option value='Boost'>Boost</option>
+  </select><br>
+  <p>Choose A Topic (Optional):</p>
+  <input type='radio' id='Cosmetic Dentist' name='topic' value='Cosmetic Dentist' checked>
+  <label for='Cosmetic Dentist'>Cosmetic Dentist - Free!</label><br>
+  <input type='radio' id='Cosmetic Dentist' name='Cosmetic Dentist' value='Cosmetic Dentist'>
+  <label for='Cosmetic Dentist'>Cosmetic Dentist - $25.00</label><br>
+  <input type='radio' id='Dental Veneers' name='Cosmetic Dentist' value='Dental Veneers'>
+  <label for='Dental Veneers'>Dental Veneers - $50.00</label><br>
+  <input type='radio' id='Currently' name='Cosmetic Dentist' value='Currently'>
+  <label for='Currently'>Currently - $100.00</label><br>
+  <input type='radio' id='Cosmetic Dentist' name='Cosmetic Dentist' value='Cosmetic Dentist'>
+  <label for='Cosmetic Dentist'>Cosmetic Dentist - $250.00</label><br>
+  <input type='radio' id='Root Canal' name='Cosmetic Dentist' value='Root Canal'>
+  <label for='Root Canal'>Root Canal - $500.00</label><br>
+  <input type='radio' id='Types' name='Cosmetic Dentist' value='Types'>
+  <label for='Types'>Types - $1,000.00</label><br><br>
+  <label for='name'>Name:</label>
+  <input type='text' id='name' name='name' required>
+  <br><br>
+  <label for='email'>Email:</label>
+  <input type='email' id='email' name='email' required><br><br>
+  <input type='submit' value='Submit' style='background-color:#4CAF50; color:#fff; padding:10px; border:none; border-radius:5px; cursor:pointer;'>
+</form>
+<div id='acknowledgement' style='display:none;'>Thank you for signing up for our newsletter!</div>
+<script>
+  const form = document.querySelector('#newsletter-form');
+  const acknowledgement = document.querySelector('#acknowledgement');
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    if (form.checkValidity()) {
+      acknowledgement.style.display = 'block';
+      form.reset();
+    }
+  });
+</script>
+</div></div>
+
+<div class='nrrw'>
+</div><!-- Cosmetic DentistPartner Program -->
+<!-- Cosmetic DentistPartner Plan -->
+<!-- Cosmetic Dental ServicesPartner Plan -->
+<!-- Dental HealthPartner Plan -->
+<!-- ReliefPartner Plan -->
+<div id='Partner-Program'>
+<div style='margin-left: 10%;'>
+ <h2>Become a Dr. Peter J Blank Partner!</h2>
+ <p>Join our partner program and earn commissions by referring customers to our website. We have 4 different partner plans:</p>
+ <pre>Cosmetic Dentist</pre>
+ <pre>Cosmetic Dental Services</pre>
+ <pre>Dental Health</pre>
+ <pre>Relief</pre>
+ <button type='button' class='partner' onclick='openPartnerForm()'>Sign Up Now!</button>
+ <div id='partner-form' class='form-popup'>
+ <form action='' class='form-container-partner animate'>
+ <h2>Apply for Partner ID</h2>
+ <label for='company-name'><b>Company Name</b></label><br>
+ <input type='text' placeholder='Enter Company Name' name='company-name' required style='width: 100%'><br><br>
+ <label for='website-url'><b>Website URL</b></label><br>
+ <input type='text' placeholder='Enter Website URL' name='website-url' required style='width: 100%'><br><br>
+ <label for='owner-name'><b>Owner Name</b></label><br>
+ <input type='text' placeholder='Enter Owner Name' name='owner-name' required style='width: 100%'><br><br>
+ <label for='email'><b>Email Address</b></label><br>
+ <input type='email' placeholder='Enter Email Address' name='email' required style='width: 100%'><br><br>
+ <label for='years-in-business'><b>Years in Business</b></label><br>
+ <input type='number' placeholder='Enter Years in Business' name='years-in-business' required style='width: 100%'><br><br>
+ <div style='margin-top: 20px; margin-bottom: 10px;'>
+ <button type='submit' class='btn partner' onclick='closePartnerForm(); alert(&#x27;Your form has been submitted successfully!&#x27;)'>Submit and Close</button>
+ </div>
+ </form>
+ </div>
+<script>
+function openPartnerForm() { 
+  document.getElementById('partner-form').style.display = 'block'; 
+} 
+function closePartnerForm() { 
+  document.getElementById('partner-form').style.display = 'none'; 
+} 
+document.querySelector('.form-container-partner').addEventListener('submit', function(e) { 
+  e.preventDefault(); 
+  const companyName = document.querySelector('input[name=\'company-name\']').value; 
+  const websiteUrl = document.querySelector('input[name=\'website-url\']').value; 
+  const ownerName = document.querySelector('input[name=\'owner-name\']').value; 
+  const email = document.querySelector('input[name=\'email\']').value; 
+  const yearsInBusiness = document.querySelector('input[name=\'years-in-business\']').value; 
+  const formContainer = document.querySelector('.form-container-partner'); 
+  // Send form data to server or perform any other necessary actions 
+  console.log({ companyName, websiteUrl, ownerName, email, yearsInBusiness }); 
+  // Display acknowledgement message and close form 
+  formContainer.innerHTML = ` 
+    <h2>Thank you for applying for Partner ID!</h2> 
+    <p>We have received your application and will review it shortly. You will receive an email with further instructions.</p>
+    <button type='button' class='btn partner' onclick='closePartnerForm()'>Close</button> 
+  `; 
+}); 
+</script>
+<p style='font-size: 20px; font-weight: bold; margin-bottom: 15px;'>Already a Dr. Peter J Blank Partner? <span id='click-here' style='color: blue;  text-decoration: underline;  cursor: pointer;'>Click Here!</span></p>
+<div id='partner-content' style='display: none;'>
+<p>To create a referral link with your unique partner ID, use the following code, but replace <code>PARTNERID</code> with your unique partner ID:</p>
+ <pre><code>&lt;a href='https://www.peterblankdds.com//?pid=PARTNERID' target='_blank'>Click here&lt;/a&gt; to visit Dr. Peter J Blank for Cosmetic Dentist Cap Cosmetic Smile Enhancement Specialist</code></pre>
+ <p style='margin-top: 15px;'>Please make sure to use this exact code so we can track your referrals and pay you for your commission.</p>
+</div>
+<script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+<script>
+ $(document).ready(function() {
+ $('#partner-content').hide(); // hide the content initially
+ $('#click-here').click(function() { // bind a click event to the 'Click Here' text
+ $('#partner-content').toggle(); // toggle the visibility of the content
+ });
+ });
+</script>
+</div>
+</div>
+
+<div class='nrrw'>
+
+
+<!-- Contact Info Corrections -->
+
+<template>
+ <figure>
+ <caption><mark>Proper!A12 Address: Cosmetic Dentist Cosmetic Teeth Whitening Water</mark></caption>
+ <del><strike>Old Address: Cosmetic Dentist Aesthetic Dental Practitioner Cosmetic Dentistry Medically Reviewed</strike></del>
+ <address>
+ <ins>Dr. Peter J Blank: Cosmetic Dentist Dental Cosmetics Hygienist Ultimate</ins>
+ Proper!A22 <br>
+ Proper!A24, Proper!A26
+ </address>
+ </figure>
+ <p>For: Cosmetic Dentist™ Dentistry Cosmetics™ Aesthetic Dentistry™ Missing™ Cosmetic Dentistry™ Implant Dentists™ ©<span id='currentYear'></span> contact: (219)-996-5606</p>
+ <script>
+ var currentYear = new Date().getFullYear();
+ document.getElementById('currentYear').innerHTML = currentYear;
+ </script>
+</template>
+
+
+
+</div><!-- References -->
+
+<div class='resources-section'>
+<p style='font-size: 28px; font-weight: bold; margin-top: 40px;'>Resources:</p>
+<table id='Works-Cited'>
+
+<tr>
+<th style='text-align: left;'>To Learn More About:</th>
+<th style='text-align: left;'>Suggested Further Reading:</th>
+<th style='text-align: left;'>Citations:</th>
+</tr>
+<tr>
+<td>
+<ul>
+<li><strong><dfn>Cosmetic Dentist</dfn></strong></li>
+<li><strong><dfn>Cosmetic Dental Professional</dfn></strong></li>
+<li><strong><dfn>Dental Esthetics Expert</dfn></strong></li>
+</ul>
+</td>
+<td>
+<ul>
+<li><a href='https://en.wikipedia.org/wiki/Cosmetic_dentistry' target='_blank'>Cosmetic Dentist</a></li>
+<li><a href='https://en.wikipedia.org/wiki/Gingivectomy' target='_blank'>Cosmetic Dental Professional</a></li>
+<li><a href='https://en.wikipedia.org/wiki/Dental_bonding' target='_blank'>Dental Esthetics Expert</a></li>
+</ul>
+</td>
+<td>
+<ul>
+<li><a href='https://www.peterblankdds.com/' rel='author'>https://www.peterblankdds.com/</a></li>
+<li><a href='https://www.webmd.com/a-to-z-guides/what-is-a-cosmetic-dentist' rel='nofollow' target='_blank'>https://www.webmd.com</a></li>
+<li><a href='https://crest.com/en-us/oral-care-tips/adult/what-is-cosmetic-dentistry-costs-types' rel='nofollow' target='_blank'>https://crest.com</a></li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+
+<!-- Leave A Comment -->
+
+<div class='comment-section'>
+ <h3>Leave a Comment</h3>
+ <form>
+ <label for='comment'>Comment:</label>
+ <textarea id='comment' name='comment' required></textarea>
+ <button class='submit-button' type='submit'>Submit</button>
+ </form>
+ <div id='acknowledgement-message' style='display:none;'>
+ <p>Thank you for your comment! A moderator will approve it shortly.</p>
+ </div>
+</div>
+<script>
+ document.addEventListener('DOMContentLoaded', () => {
+   const form = document.querySelector('.comment-section form');
+   const acknowledgementMessage = document.querySelector('.comment-section #acknowledgement-message');
+   const submitButton = document.querySelector('.comment-section .submit-button');
+   submitButton.addEventListener('click', (event) => {
+     event.preventDefault();
+     acknowledgementMessage.style.display = 'block';
+     form.reset();
+   });
+ });
+</script>
+
+<!-- Social Media Links -->
+
+<div class='social-section'>
+<p style='font-size: 22px;'><strong>Social Media Information</strong></p>
+<div id='social' style='display: flex; flex-wrap: wrap;'>
+  <div style='flex-basis: 33.3%;'>
+    <p><strong>Find us on </strong> <a href='https://www.facebook.com/blankdds/' target='_blank' rel='nofollow'>Facebook</a></p>
+    <p><strong>Find us on </strong> <a href='https://www.twitter.com' target='_blank' rel='nofollow'>Twitter</a></p>
+    <p><strong>Find us on </strong> <a href='https://www.instagram.com' target='_blank' rel='nofollow'>Instagram</a></p>
+  </div>
+  <div style='flex-basis: 33.3%;'>
+    <p><strong>Find us on </strong> <a href='https://www.youtube.com/channel/UC9A9Gc_o43Z28TTnXbLyU1A' target='_blank' rel='nofollow'>YouTube</a></p>
+    <p><strong>Find us on </strong> <a href='https://www.google.com/search?q=%22peter+blank+dds%22&rlz=1C1ONGR_enUS1051US1051&oq=%22peter+blank+dds%22&aqs=chrome..69i57j0i22i30.3987j0j7&sourceid=chrome&ie=UTF-8' target='_blank' rel='nofollow'>Google</a></p>
+    <p><strong>Follow our </strong> <a href='https://www.peterblankdds.com//feed' target='_blank' rel='nofollow'>RSS Feed</a></p>
+  </div>
+  <div style='flex-basis: 33.3%;'>
+   <p><strong>Dr. Peter J Blank </strong> <a href='https://www.healthgrades.com/dentist/dr-peter-blank-ykq9x' target='_blank' rel='nofollow'>Review 1</a></p>
+   <p><strong>Dr. Peter J Blank </strong> <a href='https://www.opencare.com/dentists/hebron-in/dr-peter-j-blank-dds-24630220729c/' target='_blank' rel='nofollow'>Review 2</a></p>
+   <p><strong>Dr. Peter J Blank </strong> <a href='https://www.vitals.com/dentists/Dr_Peter_J_Blank' target='_blank' rel='nofollow'>Review 3</a></p>
+ </div>
+</div></div>
+
+<!-- Map Embed -->
+
+<div id='map-location'>
+<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11983.462917163775!2d-87.201506!3d41.333533!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88118c98de3f81f9%3A0xbba05f3302488467!2sPeter%20J.%20Blank%2C%20DDS!5e0!3m2!1sen!2sus!4v1682469127551!5m2!1sen!2sus' width='100%' height='350' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>
+</div>
+
+<!-- CloseTags -->
+
+</article>
+</div>
